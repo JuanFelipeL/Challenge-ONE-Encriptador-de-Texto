@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <div>
+        <img class="img-logo" src="imagenes/Logo.png">
+        <h1 class="titulo">Encriptador de texto</h1>
+      </div>
+      <div class="lado-izquierdo">
+          <textarea class="texto-input" type="text" name="entrada-texto" id="inputtexto" cols="80" rows="20" required placeholder="Ingrese el texto aqui"></textarea>
+      </div>
+      
+      <div class="lado-derecho">
+        <div class="rectangulo"></div>
+        <img src="imagenes/Muñeco.png" class="imagen-muñeco" id="img-muñeco">
+        <h1 id="mensaje">Ningún mensaje fue <br> encontrado</h1>
+        <p class="texto-2" id="texto-2">Ingresa el texto que desees encriptar o <br> desenciptar.</p>
+        <textarea readonly id="output-texto" cols="33" rows="27"></textarea>
+        <button type="button" id="copiar" onclick="copiar()" hidden>Copiar</button>
+      </div>
+      <div class="botones">
+        <img class="vector" src="imagenes/Vector.png">
+        <p >Solo letras minúsculas y sin acentos</p>
+        <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar!</button>
+        <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar!</button>
+        
+      </div>
+    </id=>
+  </body>
+        <!--Realizado por Juan Felipe Ospina Luna / Grupo 5-->
+</html>
